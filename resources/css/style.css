@@ -10,7 +10,7 @@ html {
   top: 5.3125rem; /* To offset for fixed header. */
   background-image:url('../images/banner-landingpage.jpg');
   background-repeat: no-repeat;
-    background-size: contain;
+  background-size: contain;
 }
 
 .center {
@@ -31,6 +31,10 @@ html {
 .image-container img {
   display: block;
   max-width: 100%;
+}
+
+.desktop a:hover {
+  color: #9dc20b;
 }
 
 @media only screen and (max-width: 760px) {
