@@ -39,7 +39,7 @@ html {
   }
 
   #sign-up-cta {
-          display: none;
+  display: none;
   }
 
 }
@@ -119,9 +119,9 @@ header .mobile {
     color: white;
   }
 
-  .header {
-    
-  }
+  #sign-up-cta {
+    display: none;
+    }
 }
 
 /* Sign Up Section */
