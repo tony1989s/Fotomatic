@@ -9,6 +9,8 @@ html {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
   background-image:url('../images/banner-landingpage.jpg');
+  background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .center {
@@ -35,6 +37,11 @@ html {
   .main-content {
     top: 2.5625rem;
   }
+
+  #sign-up-cta {
+          display: none;
+  }
+
 }
 
 /* Header */
@@ -110,6 +117,10 @@ header .mobile {
     background-color: #9dc20b;
     line-height: 1.6;
     color: white;
+  }
+
+  .header {
+    
   }
 }
 
